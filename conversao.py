@@ -1,22 +1,22 @@
-# CONVERSÃO DE TIPOS
+# TYPE CONVERSION
 
-idade = '26'
-numero1 = '10'
-numero2 = '20'
+age = '26'
+number1 = '10'
+number2 = '20'
 
-print(numero1 + numero2)
+print(number1 + number2)
 
-print(idade, type(idade))
+print(age, type(age))
 
-idade_inteira = int(idade)
+full_age = int(age)
 
-print(idade_inteira, type(idade_inteira))
+print(full_age, type(full_age))
 
 # int()
 # str()
 # float()
 # bool()
 
-altura = float(input('informe a sua altura: '))
+height = float(input('Inform your height: '))
 
-print(altura, type(altura))
+print(height, type(height))

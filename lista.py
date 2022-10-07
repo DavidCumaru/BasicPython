@@ -1,125 +1,125 @@
-# > LISTAS 
+# > LISTS
 
-# Antes
-nota1 = 7.9
-nota2 = 9.7
-nota3 = 8.2
+# Before
+grade1 = 7.9
+grade2 = 9.7
+grade3 = 8.2
 
-# Com lista
-nota = [7.9, 9.7, 8.2]
+# with list
+grade = [7.9, 9.7, 8.2]
 
-# Criando Listas
-lista = []
-lista = list()
-lista = [26, 'David', 3.1352, False]
-lista_de_listas = [10, [1, 2, 3]]
+# creating lists
+list = []
+list = list()
+list= [26, 'David', 3.1352, False]
+list_of_lists = [10, [1, 2, 3]]
 
-# Indenxação e Slices (fatiamento)
+# Indexing and slices (slicing)
 
-lista = [10, 'David', 3.1415, True]
+list = [10, 'David', 3.1415, True]
 
-print(lista[0])
-print(lista[1])
-print(lista[2])
-print(lista[3])
-#print(lista[4])
+print(list[0])
+print(list[1])
+print(list[2])
+print(list[3])
+#print(list[4])
 
 # Slices
 
-lista = [10, 50, 30, 40, 25, 60, 5]
+list = [10, 50, 30, 40, 25, 60, 5]
 
-print(lista[0:3])
-print(lista[3:6])
-print(lista[3:])
-print(lista[2:6:2])
+print(list[0:3])
+print(list[3:6])
+print(list[3:])
+print(list[2:6:2])
 
-# > Iteração com FOR
+# > iteration with FOR
 
-# 1. Utilizando os próprios elementos da lista
-for elemento in lista:
+# 1. Using the list elements themselves
+for elemento in list:
     print(elemento)
 
-# 2. Utilizando os índices
+# 2. Using the indices
 
-print('Comprimento da lista:', len(lista))
+print('list length:', len(list))
 
-for i in range(len(lista)):
-    print(lista[i])
+for i in range(len(list)):
+    print(list[i])
 
-# > MÉTODOS DE LISTAS
+# > list methods
 
-lista = [1, 3, 12, 8, 2]
+list= [1, 3, 12, 8, 2]
 
 # append
 
-print('Antes do append:', lista)
+print('before append:', list)
 
-lista.append(3)
+list.append(3)
 
-print('Depois do append:', lista)
+print('after append:', list)
 
 # insert
 
-lista.insert(2, 10)
+list.insert(2, 10)
 
-print('Depois do insert:', lista)
+print('after insert:', list)
 
 # extend
 
-lista2 = [4, 2, 3]
+list2 = [4, 2, 3]
 
-lista.extend(lista2)
+list.extend(list2)
 
-print('Depois do extend:', lista)
+print('after extend:', list)
 
 # pop
 
-lista.pop()
+list.pop()
 
-print('Lista após o pop:', lista)
+print('List after pop:', list)
 
-lista.pop(0)
+list.pop(0)
 
-print('Lista após o pop:', lista)
+print('List after pop:', list)
 
 # remove
 
-lista.remove(3)
+list.remove(3)
 
-print('Depois do remove:', lista)
+print('after remove:', list)
 
 # count
 
-print('Quantidade de 2 na lista:', lista.count(2))
+print('Quantity of 2 in the list:', list.count(2))
 
 # index
 
-print('Indice do elemento 12:', lista.index(12))
+print('Element index 12:', list.index(12))
 
 # sort
 
-lista.sort()
+list.sort()
 
-print(lista)
+print(list)
 
-lista.sort(reverse=True)
+list.sort(reverse=True)
 
-print(lista)
+print(list)
 
-# FUNÇÕES PARA LISTAS
+# FUNCTIONS FOR LISTS
 
 # len
 
-print(len(lista))
+print(len(list))
 
 # sum
 
-print(sum(lista))
+print(sum(list))
 
 # max
 
-print(max(lista))
+print(max(list))
 
 # min
 
-print(min(lista))
+print(min(list))

@@ -1,13 +1,13 @@
-# > PRIMEIRO CODIGO
+# > FIRST CODE
 
-# PRINT: uma função para imprimir alguma coisa na tela
+# PRINT: a function to print something to the screen
 
 print('Hello World')
-print ('Seja bem-vindo ao Python World!')
+print ('Welcome to Python World!')
 
-input('Qual é a linguagem de programação que você esta estudando? ')
+input('What is the programming language you are studying? ')
 
+#this is a comment
 """
-Isso é um comentário
-Isso aqui também é um comentario
+This is also a comment
 """

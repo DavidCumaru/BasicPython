@@ -1,34 +1,33 @@
-# > DICIONÁRIOS
+# > DICTIONARIES
 
-# Criando dicionários
+# creating dictionaries
 
 from operator import truediv
 
+dictionary = {}
+dictionary = dict()
 
-dicionario = {}
-dicionario = dict()
+dictionary = {'name': 'David', 'age': 23, 'height': 1.68}
 
-dicionario = {'nome': 'David', 'idade': 23, 'altura': 1.68}
-
-print(dicionario)
-print(dicionario['idade'])
+print(dictionary)
+print(dictionary['age'])
 
 # Adicionando elementos em um dicionario
 
-dicionario['programador'] = True
+dictionary['developer'] = True
 
-print(dicionario)
+print(dictionary)
 
-dicionario['altura'] = 2
+dictionary['height'] = 2
 
-print(dicionario)
+print(dictionary)
 
-# Iterando sobre um dicionário
+# Iterating through a dictionary
 
-for chave in dicionario:
-    print(chave, dicionario[chave])
+for key in dictionary:
+    print(key, dictionary[key])
 
-# Testando a existência de uma chave
+# Testing for the existence of a key
 
-print('peso' in dicionario)
-print('altura' in dicionario)
+print('weight' in dictionary)
+print('height' in dictionary)

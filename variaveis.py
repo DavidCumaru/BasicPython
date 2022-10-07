@@ -1,30 +1,28 @@
-# > VARIÁVEIS
-
-# 1.Variáveis
+# > VARIABLES
 
 """
-TIPOS DE VARIÁVEIS
+TYPES OF VARIABLES
 
-1. INT: números inteiros, ou seja, números sem parte decimal: 0, 5, -1, 1000
-2. FLOAT: números reais, ou seja, números com parte decimal: 1.0, -2.7, 3.75
-3. STR: cadeis de caracteres, ou seja, dados textuais (string)
-4. BOOL: valores lógicos (booleanos): true ou false
+1. INT: integers, in other words, numbers without decimal part: 0, 5, -1, 1000
+2. FLOAT: real numbers, in other words, numbers with decimal part: 1.0, -2.7, 3.75
+3. STR: character strings, in other words, textual data (string)
+4. BOOL: logical values (booleanos): true ou false
 """
 
-idade = 23
-altura = 1.67
-nome = 'David Cumaru'
-estudando = True
+age = 23
+height = 1.67
+name = 'David Cumaru'
+studying = True
 
-print(type(idade))
-print(type(altura))
-print(type(nome))
-print(type(estudando))
+print(type(age))
+print(type(height))
+print(type(name))
+print(type(studying))
 
-# Obtendo dados do usuário e salvando em variáveis
+# Getting user data and saving to variables
 
-linguagem = input('Qual é a linguagem de programação que você está estudando? ')
+language = input('What is the programming language you are studying? ')
 
-print('A linguagem que você está estudando é',linguagem)
+print('The language you are studying ',language)
 
-# Imprimindo variáveis + Mais sobre a função print
+# Printing variables + More about the print function

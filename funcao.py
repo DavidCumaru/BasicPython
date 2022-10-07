@@ -1,43 +1,43 @@
-# > FUNÇÕES
+# > FUNCTIONS
 
-# Funções que já utilizei
+# Functions I've used
 
 """
-print() # - Imprimi uma mensagem (int, float, str) no console (terminal, cmd)
-input() # - Retorna um dado informado pelo usuário (entrada padrão) e pode receber uma string
-len() # - Recebe uma lista e retorna o tamanho dessa lista
-max() # - Retorna o maior valor de uma lista
+print() # - Print a message (int, float, str) to console (terminal, cmd).
+input() # - Return data provided by the user (standard input) and can receive a string.
+len() # - Receive a list and return the size of that list
+max() # - Return the largest value from a list
 """
 
-# Criação de Funções
+# Creating Functions
 
-# Função inicial
+# initial function
 
-def linguagem():
-    print('Linguagem Python')
+def language():
+    print('Python Language')
 
-linguagem()
+language()
 
-# Função com parâmetros
+# Function with parameters
 
-def saudacao(nome, lingua):
-    print(f'Seja bem-vinda(o), {nome}!')
-    print(f'Linguagem: {lingua}')
+def salutation(name, langua):
+    print(f'Welcome, {name}!')
+    print(f'language: {langua}')
 
-saudacao('David', 'Python')
+salutation('David', 'Python')
 
-# Função com parâmetro default
+# Function with default parameter
 
-def saudacao(nome, lingua='C++'):
-    print(f'Seja bem-vinda(o), {nome}!')
-    print(f'Linguagem: {lingua}')
+def salutation(name, langua='C++'):
+    print(f'Welcome, {name}!')
+    print(f'language: {langua}')
 
-saudacao('Giovana')
+salutation('Giovana')
 
-# Funções com retorno
+# Functions with return
 
-def soma(num1, num2):
-    return num1 + num2
-resultado = soma(5,7)
+def sum(number1, number2):
+    return number1 + number2
+result = sum(5,7)
 
-print('O resultado da soma é', resultado)
+print('The sum result is', result)

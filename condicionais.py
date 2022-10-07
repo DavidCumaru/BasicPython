@@ -1,29 +1,29 @@
-# > ESTRUTURAS CONDICIONAIS
+# > CONDITIONAL STRUCTURE
 
-idade = 20
+age = 20
 
-if idade >= 18:
-    print('Você é maior de idade.')
+if age >= 18:
+    print('You are of legal age.')
 else:
-    print('Você é menor de idade.')
+    print('you are underage.')
 
 """
-Imagine que você queira imprimir "Aprovado", caso o estudante tenha uma média superior ou igual a 7, e "Reprovado", caso a média seja inferior a 7.
+Imagine that you want to print "Approved", if the student has an average greater than or equal to 7, and "Disapproved", if the average is less than 7.
 """
 
-media = float(input('Insere a média do estudante: '))
+average = float(input('Enter student average: '))
 
-if media >= 7:
-    print('Você foi aprovado!')
-elif media >=5:
-    print('Recuperação')
+if average >= 7:
+    print('You were approved!!')
+elif average >=5:
+    print('The student must recover the grade!')
 else:
-    print('Você foi reprovado!')
+    print('You failed!')
 
-media = 10
-presenca = 100
+average = 10
+presence = 100
 
-if media >= 7 and presenca >= 70:
-    print('Aprovado')
+if average >= 7 and presence >= 70:
+    print('Approved!')
 else:
-    print('Reprovado!')
+    print('Disapproved!')

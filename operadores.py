@@ -1,37 +1,37 @@
-# > OPERAÇÕES MATEMÁTICAS (ARITMÉTICAS)
+# > MATHEMATICAL OPERATIONS (ARITHMETIC)
 """
-- Soma: +
-- Subtração: -
-- Multiplicação: *
-- Divisão: /
-- Divisão inteira: //
-- Resto da divisão: %
-- Potência: **
+- Sum: +
+- Subtraction: -
+- Multiplication: *
+- Division: /
+- Integer division: //
+- Rest of Division: %
+- Potency: **
 """
 
-numero1 = 10
-numero2 = 20
+number1 = 10
+number2 = 20
 
-print(numero1 + numero2)
-print(numero1 - numero2)
-print(numero1 * numero2)
-print(numero1 / numero2)
-print(numero1 // numero2)
+print(number1 + number2)
+print(number1 - number2)
+print(number1 * number2)
+print(number1 / number2)
+print(number1 // number2)
 print(20 % 3)
 print(2 ** 3)
 
-# OPERADORES BOOLEANOS
+# BOOLEAN OPERATORS
 
-idade1 = 10
-idade2 = 15
-altura1 = 1.77
-altura2 = 1.65
-altura3 = altura2
+age1 = 10
+age2 = 15
+height1 = 1.77
+height2 = 1.65
+height3 = height2
 
-print(idade1 > idade2)          # false
-print(idade1 <= idade2)         # true
+print(age1 > age2)          # false
+print(age1 <= age2)         # true
 print('Python' == 'python')     # false
-print('banana' != 'abacaxi')    # true
-print(altura1 >= altura2)       # true
-print(altura2 > altura3)        # false
+print('banana' != 'pineapple')    # true
+print(height1 >= height2)       # true
+print(height2 > height3)        # false
 

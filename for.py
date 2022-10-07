@@ -1,22 +1,22 @@
-# > REPETIÇÃO FOR
-"""for variavel in range(5):
-    print(variavel)"""
+# > REPEAT FOR
+"""for variable in range(5):
+    print(variable)"""
 
-"""for variavel in range(1, 10):
-    print(variavel)"""
+"""for variable in range(1, 10):
+    print(variable)"""
 
 # 1, 4, 7, 10
-"""for variavel in range(1, 12, 3):
-    print(variavel)"""
+"""for variable in range(1, 12, 3):
+    print(variable)"""
 
-"""nota1 = float(input('Informe sua nota 1: '))
-nota2 = float(input('Informe sua nota 2: '))
-nota3 = float(input('Informe sua nota 3: '))"""
-soma = 0
+"""grade1 = float(input('inform your grade 1: '))
+grade2 = float(input('inform your grade 2: '))
+grade3 = float(input('inform your grade 3: '))"""
+sum = 0
 
 for i in range(1, 4):
-    nota = float(input(f'Informe a sua nota {i}: '))
+    grade = float(input(f'inform your grade {i}: '))
 
-    soma = soma + nota
+    sum = sum + grade
 
-print(soma / 3)
+print(sum / 3)

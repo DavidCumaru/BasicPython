@@ -1,18 +1,19 @@
-numero_sorteado = 15
 
-numero_escolhido = int(input('Informe um número entre 1 e 20: '))
+drawn_number = 15
 
-while numero_sorteado != numero_escolhido:
-    print('Você errou o número, tente novamente...')
-    numero_escolhido = int(input('Informe um número entre 1 e 20: '))
+chosen_number = int(input('Enter a number between 1 and 20: '))
 
-print('Parabéns! Você acertou!')
+while drawn_number != chosen_number:
+    print('You got the number wrong, try again...')
+    chosen_number = int(input('Enter a number between 1 and 20: '))
 
-# Exemplo 2: Estrutura de contador
+print("Congratulations! You're right!")
 
-contador = 0
+# Example 2: accountant structure
 
-while contador < 5:
-    print(contador)
+accountant = 0
 
-    contador = contador + 1
+while accountant < 5:
+    print(accountant)
+
+    accountant = accountant + 1
